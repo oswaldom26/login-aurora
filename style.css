@@ -259,3 +259,44 @@ header {
 .login-register p a:hover {
     text-decoration: underline;
 }
+
+.hero {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.content .btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.content .btn:hover {
+    background: #fff;
+    color: 162938;
+}

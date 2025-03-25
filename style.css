@@ -83,7 +83,7 @@ header {
 }
 
 .wrapper {
-    position: relative;
+    position: absolute;
     width: 400px;
     height: 440px;
     background: transparent;
